@@ -6,7 +6,7 @@
 
 <p align="center">Free bulk SMS for Android. One message, your whole list, one SMS at a time.</p>
 
-<p align="center"><a href="https://github.com/JOOGDHEERE69/somdroid-releases/releases/latest"><b>Download the latest APK</b></a></p>
+<p align="center"><a href="https://github.com/JOOGDHEERE69/somdroid-releases/releases/latest/download/somdroid.apk"><b>Download somdroid.apk</b></a></p>
 
 ---
 
@@ -21,7 +21,7 @@ You import a list of numbers from a CSV, TXT or Excel file, write one message an
 
 ## Install
 
-1. Open the [latest release](https://github.com/JOOGDHEERE69/somdroid-releases/releases/latest) on your phone and download `SomDroid-vX.Y.Z.apk`.
+1. On your phone, download [somdroid.apk](https://github.com/JOOGDHEERE69/somdroid-releases/releases/latest/download/somdroid.apk). This link always gives the newest version. Older versions and release notes are on the [releases page](https://github.com/JOOGDHEERE69/somdroid-releases/releases).
 2. Open the file. If Android asks, allow **Install unknown apps** for your browser or file manager.
 3. Open SomDroid and allow **SMS**, **Phone** and **Notifications**. If Android says *Restricted setting*, go to **App info**, tap **⋮** and choose **Allow restricted settings**.
 4. After about 30 messages, Android may ask whether SomDroid can send many SMS. Choose **Always allow**.
@@ -33,7 +33,7 @@ To update, install the newer APK over the old one. Your history is kept.
 Every release lists the APK's SHA-256. On Windows:
 
 ```powershell
-Get-FileHash .\SomDroid-v1.0.0.apk -Algorithm SHA256
+Get-FileHash .\somdroid.apk -Algorithm SHA256
 ```
 
 The value should match the one on the release page.
